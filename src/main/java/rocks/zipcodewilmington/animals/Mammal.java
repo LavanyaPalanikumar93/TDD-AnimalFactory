@@ -20,7 +20,12 @@ public abstract class Mammal implements Animal {
         this.eatenMeals = new ArrayList<>();
         this.id = id;
     }
+    protected Mammal(Integer id){
+        this.id=id;
+    }
+    public Mammal() {
 
+    }
     public String getName() {
         return name;
     }
